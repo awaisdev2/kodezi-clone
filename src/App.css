@@ -1,5 +1,10 @@
 .hero-section{
-  background-image: url('bg.png');
+  background-image: url('images/bg.png');
   background-repeat: no-repeat;
   background-size: 100% 1200px !important;
+}
+.video-section{
+  background-image: url('images/12.png');
+  background-repeat: no-repeat;
+  background-size: 100% 1700px !important;
 }

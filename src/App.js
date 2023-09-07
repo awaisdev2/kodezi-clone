@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
 import './App.css';
 import Hero from "./components/Hero";
+import Intro from "./components/Intro";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Nav />
       <Hero />
       </div>
+      <Intro />
     </>
   );
 }
