@@ -1,5 +1,5 @@
 .hero-section{
   background-image: url('bg.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 1200px !important;
 }

@@ -4,7 +4,7 @@ export default function Nav() {
   const logo = "https://kodezi.com/_next/static/media/logo-color.87a0aae3.svg";
   return (
     <div>
-      <div className="flex items-center justify-center p-2 w-full bg-[#121929]">
+      <div className="flex items-center justify-center py-3 w-full bg-[#121929]">
         <img
           src="https://a.slack-edge.com/production-standard-emoji-assets/13.0/google-medium/1f389.png"
           alt=""
@@ -16,10 +16,13 @@ export default function Nav() {
           here!
         </a>
       </div>
-      <nav className="border-gray-200">
+
+      {/* nav starts */}
+
+      <nav className="border-gray-200 mt-7">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/">
-            <img src={logo} className="h-5 mr-3" alt="Flowbite Logo" />
+            <img src={logo} className="h-5 ml-12" alt="Flowbite Logo" />
           </a>
           <button
             data-collapse-toggle="navbar-dropdown"
@@ -49,7 +52,7 @@ export default function Nav() {
             className="hidden w-full md:block md:w-auto"
             id="navbar-dropdown"
           >
-            <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
+            <ul className="flex -ml-32 flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
               <li>
                 <button
                   id="dropdownHoverButton"
@@ -151,7 +154,7 @@ export default function Nav() {
                   id="dropdownHoverButton"
                   data-dropdown-toggle="dropdownHover"
                   data-dropdown-trigger="hover"
-                  className="flex items-center text-md justify-between w-full text-gray-100 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-yellow-100 md:p-0 md:w-auto"
+                  className="flex items-center text-md justify-between w-full text-gray-100 hover:text-yellow-100 md:p-0 md:w-auto"
                 >
                   Integrations
                 </button>
@@ -420,7 +423,7 @@ export default function Nav() {
               <li>
                 <a
                   href="/"
-                  className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-yellow-100 md:p-0"
+                  className="block py-2 pl-3 pr-4 text-gray-100 rounded md:border-0 hover:text-yellow-100 md:p-0"
                 >
                   Pricing
                 </a>
@@ -428,7 +431,7 @@ export default function Nav() {
               <li>
                 <a
                   href="/"
-                  className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-yellow-100 md:p-0"
+                  className="block py-2 pl-3 pr-4 text-gray-100 rounded md:border-0 hover:text-yellow-100 md:p-0"
                 >
                   Docs
                 </a>
@@ -436,7 +439,7 @@ export default function Nav() {
               <li>
                 <a
                   href="/"
-                  className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-yellow-100 md:p-0"
+                  className="block py-2 pl-3 pr-4 text-gray-100 rounded md:border-0 hover:text-yellow-100 md:p-0"
                 >
                   Community
                 </a>
@@ -444,14 +447,14 @@ export default function Nav() {
             </ul>
           </div>
           <div
-            className="hidden w-full md:block md:w-auto"
+            className="hidden mr-12 w-full md:block md:w-auto"
             id="navbar-dropdown"
           >
             <ul className="flex flex-col items-center font-medium p-4 text-gray-100 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
               <li>
                 <a
                   href="/"
-                  className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-yellow-100 md:p-0"
+                  className="block py-2 pl-3 pr-4 text-gray-100 rounded md:border-0 hover:text-yellow-100 md:p-0"
                 >
                   Careers
                 </a>
