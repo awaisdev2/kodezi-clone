@@ -8,3 +8,8 @@
   background-repeat: no-repeat;
   background-size: 100% 1700px !important;
 }
+.btn:hover{
+  background: linear-gradient(135deg, rgba(112,140,201,1) 0%, rgba(9,212,75,1) 77%);
+  color: white;
+  transition: ease-in;
+}
